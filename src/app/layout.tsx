@@ -3,6 +3,7 @@ import {
   ClerkProvider
 } from '@clerk/nextjs'
 import { esMX } from '@clerk/localizations'
+import { Analytics } from "@vercel/analytics/react"
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -33,6 +34,7 @@ export default function RootLayout({
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           {children}
+          <Analytics />
         </body>
       </html>
     </ClerkProvider>
