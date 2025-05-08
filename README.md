@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TomaBien
 
-## Getting Started
+TomaBien es una aplicación web pensada para Latinoamérica que ayuda a los usuarios a entender y organizar el consumo de sus medicamentos de forma simple y accesible.
 
-First, run the development server:
+## 🚀 ¿Qué es TomaBien?
+TomaBien permite:
+- Registrar tratamientos médicos de manera sencilla.
+- Crear recordatorios para no olvidar ninguna dosis.
+- Utilizar IA para explicar estudios médicos y recetas.
+- Acceder a información clara y útil sobre medicamentos y tratamientos.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+El objetivo es mejorar la adherencia a los tratamientos, evitar errores de medicación y empoderar a los pacientes con información clara y accesible.
+
+## 🗂️ Estructura del proyecto
+
+```
+toma-bien/
+├── public/                # Archivos públicos y estáticos (imágenes, favicon, etc)
+├── src/
+│   ├── app/               # Rutas y páginas principales (Next.js App Router)
+│   ├── components/        # Componentes reutilizables
+│   │   └── ui/            # Componentes de UI (botones, inputs, etc)
+│   └── lib/               # Funciones y utilidades compartidas
+├── .next/                 # Carpeta generada por Next.js (build)
+├── package.json           # Configuración de dependencias y scripts
+├── tailwind.config.js     # Configuración de Tailwind CSS
+├── tsconfig.json          # Configuración de TypeScript
+├── README.md              # Este archivo
+└── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tecnologías principales
+- [Next.js 15](https://nextjs.org/)
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💻 Levantar el proyecto en local
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/mancuellofran/toma-bien.git
+   cd toma-bien
+   ```
 
-## Learn More
+2. **Instala las dependencias:**
+   Si usas [pnpm](https://pnpm.io/):
+   ```bash
+   pnpm install
+   ```
+   O con npm:
+   ```bash
+   npm install
+   ```
+   O con yarn:
+   ```bash
+   yarn install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Inicia el servidor de desarrollo:**
+   ```bash
+   pnpm dev
+   # o
+   npm run dev
+   # o
+   yarn dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Abre la app en tu navegador:**
+   Ve a [http://localhost:3000](http://localhost:3000)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Scripts útiles
+- `dev`: Levanta el entorno de desarrollo.
+- `build`: Compila la aplicación para producción.
+- `start`: Inicia la app en modo producción.
+- `lint`: Ejecuta el linter.
 
-## Deploy on Vercel
+## 👨‍💻 Autor
+- Francisco Mancuello — [@mancuellofran](https://github.com/mancuellofran)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
