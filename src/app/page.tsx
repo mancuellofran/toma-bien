@@ -142,7 +142,7 @@ export default function Home() {
               href="https://github.com/mancuellofran/toma-bien"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
+              className="text-gray-400 hover:text-white transition-colors flex items-center"
               aria-label="GitHub"
             >
               <svg
