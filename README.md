@@ -2,6 +2,8 @@
 
 > **Organiza, entiende y toma el control de tus medicamentos. Pensado para Latinoamérica.**
 
+![Vista previa de TomaBien](/src/assets/screens/toma-bien-screen.jpg)
+
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-15-blue)](https://nextjs.org/)
 [![Hackathon midudev](https://img.shields.io/badge/Hackathon-midudev-purple)](https://twitch.tv/midudev)
