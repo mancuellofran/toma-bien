@@ -1,6 +1,7 @@
 "use client"
 
 import { CheckCircle } from 'lucide-react';
+import  WaitlistPage  from '@/components/ui/waitlist';
 import Link from "next/link"
 
 export default function Home() {
@@ -75,7 +76,7 @@ export default function Home() {
 
               {/* Columna derecha: Card de lista de espera */}
               <div className="flex justify-center md:justify-end">
-                {/* <Waitlist /> */}
+                <WaitlistPage />
               </div>
             </div>
           </div>
